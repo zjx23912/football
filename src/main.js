@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import axios from 'axios';
 
-createApp(App).mount('#app')
+const app = createApp(App);
 
 axios.defaults.baseURL = 'http://localhost:8080'; // 替换为你的本地后端 API URL 和端口号
 
